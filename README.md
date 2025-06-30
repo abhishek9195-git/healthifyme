@@ -1,2 +1,2 @@
 # Front end pages
-## Home page
+### Home page
