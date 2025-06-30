@@ -1,3 +1,4 @@
-# Front end pages
+# Features
 ````
-Home page
+Compare hospitals
+````
