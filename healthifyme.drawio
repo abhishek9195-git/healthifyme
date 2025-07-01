@@ -37,6 +37,12 @@
         <mxCell id="Mnjj0A4_aMcffOSPMRFl-19" value="Appointments (Optional)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="200" y="3080" width="120" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-20" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Indexing&lt;/h1&gt;&lt;div&gt;1. slug: unique&lt;/div&gt;&lt;div&gt;2. addres.city, coordinates: for geo filtering&lt;/div&gt;&lt;div&gt;3. specialities, services, insurance_networks: for efficient filtering&lt;/div&gt;&lt;div&gt;4. ratings, average cost: for sorting/ comparision&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3240" width="620" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Use cases &amp;amp; filtering&lt;/h1&gt;&lt;div&gt;1. Hospital listings&lt;/div&gt;&lt;div&gt;a) filter by city, specialities, services, insurance_networks, ratings, price range&lt;/div&gt;&lt;div&gt;b) compare: side by side treatment statistics, pricing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2) Doctor listings&lt;/div&gt;&lt;div&gt;a) Filter by speciality, hospital, ratings, availability, fees, insurance_accepted&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3) Treatments&lt;/div&gt;&lt;div&gt;a) search by name, speciality&lt;/div&gt;&lt;div&gt;b) compare cost across hospitals&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4) Services&lt;/div&gt;&lt;div&gt;a) Find services (e.g dialysis, ICU) by hospital availibility&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5) Reviews &amp;amp; articles&lt;/div&gt;&lt;div&gt;a) associated via entity_id, can fetch on doctor or hospital pages.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3400" width="470" height="360" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
