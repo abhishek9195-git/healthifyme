@@ -1,38 +1,41 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.2.0">
   <diagram name="Page-1" id="1ozEO3YkPqLbgNqhldhl">
-    <mxGraphModel dx="915" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1111" dy="1709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Mnjj0A4_aMcffOSPMRFl-1" value="Hospital" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="80" height="80" as="geometry" />
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-1" value="Hospital&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;_id: ObjectId (P.K)&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;slug&lt;/div&gt;&lt;div&gt;address (city, state, pincode, coordinates)&lt;/div&gt;&lt;div&gt;phone&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;website&lt;/div&gt;&lt;div&gt;bed_count&lt;/div&gt;&lt;div&gt;type (multi-specialty, super speciality, clinic)&lt;/div&gt;&lt;div&gt;ratings&lt;/div&gt;&lt;div&gt;doctors (F.K)&lt;/div&gt;&lt;div&gt;services (F.K -&amp;gt; hospital_id)&lt;/div&gt;&lt;div&gt;specialties (F.K -&amp;gt; entity_id)&lt;/div&gt;&lt;div&gt;insurance_networks&lt;/div&gt;&lt;div&gt;departments&lt;/div&gt;&lt;div&gt;treatments&lt;/div&gt;&lt;div&gt;pricing&lt;/div&gt;&lt;div&gt;reviews (F.K)&lt;/div&gt;&lt;div&gt;articles(links)&lt;/div&gt;&lt;div&gt;network_insurers&lt;/div&gt;&lt;div&gt;ambulance&lt;/div&gt;&lt;div&gt;telemedicine&lt;/div&gt;&lt;div&gt;home_care&lt;/div&gt;&lt;div&gt;updated_at,&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" width="400" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="Mnjj0A4_aMcffOSPMRFl-2" value="Doctor" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="80" height="80" as="geometry" />
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-2" value="Doctor&lt;div&gt;_id: ObjectId (P.K)&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;slug&lt;/div&gt;&lt;div&gt;gender&lt;/div&gt;&lt;div&gt;profile_pic&lt;/div&gt;&lt;div&gt;&lt;div&gt;reviews -&amp;gt; entity_id(F.K)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;hospital -&amp;gt; hospital_id(F.K)&lt;/div&gt;&lt;div&gt;clinics(embedded: address, timings, fees, teleconsult)&lt;/div&gt;&lt;div&gt;Specialities&lt;/div&gt;&lt;div&gt;sub_specialities&lt;/div&gt;&lt;div&gt;qualifications&lt;/div&gt;&lt;div&gt;experience_years&lt;/div&gt;&lt;div&gt;languages_spoken&lt;/div&gt;&lt;div&gt;services&lt;/div&gt;&lt;div&gt;insurance_accepted&lt;/div&gt;&lt;div&gt;ratings&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;availability_calender&lt;/span&gt;&lt;/div&gt;&lt;div&gt;view_consult_link&lt;/div&gt;&lt;div&gt;tags&lt;/div&gt;&lt;div&gt;awards&lt;/div&gt;&lt;div&gt;seo_slug&lt;/div&gt;&lt;div&gt;created_at,&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="400" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="Mnjj0A4_aMcffOSPMRFl-4" value="Treatment" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="280" y="40" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Mnjj0A4_aMcffOSPMRFl-6" value="Services" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="400" y="40" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Mnjj0A4_aMcffOSPMRFl-7" value="Review" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Mnjj0A4_aMcffOSPMRFl-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mnjj0A4_aMcffOSPMRFl-8" target="Mnjj0A4_aMcffOSPMRFl-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Mnjj0A4_aMcffOSPMRFl-8" value="Article" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Mnjj0A4_aMcffOSPMRFl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mnjj0A4_aMcffOSPMRFl-9" target="Mnjj0A4_aMcffOSPMRFl-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Mnjj0A4_aMcffOSPMRFl-9" value="&lt;span&gt;Speciality&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="760" y="40" width="80" height="80" as="geometry" />
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-9" value="&lt;span&gt;Speciality&lt;/span&gt;&lt;div&gt;&lt;span&gt;_id: ObjectId (P.K)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;slug&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;description&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;treatment_ids&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;doctor_count&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1320" width="400" height="400" as="geometry" />
         </mxCell>
         <mxCell id="Mnjj0A4_aMcffOSPMRFl-11" value="&lt;span&gt;Application&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="880" y="40" width="80" height="80" as="geometry" />
+          <mxGeometry x="830" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-13" value="Treatment&lt;div&gt;_id: ObjectId (P.K)&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;slug&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;typical_cost&lt;/div&gt;&lt;div&gt;hospital_ids: Array&amp;nbsp; (F.K)&lt;/div&gt;&lt;div&gt;speciality_id: F.K&lt;/div&gt;&lt;div&gt;average_duration&lt;/div&gt;&lt;div&gt;risks&lt;/div&gt;&lt;div&gt;tags&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-14" value="Service&lt;div&gt;_id: ObjectId&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;slug&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;treatment_ids&lt;/div&gt;&lt;div&gt;doctor_count&lt;/div&gt;&lt;div&gt;hospital_id(F.K)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-15" value="Review&lt;div&gt;_id: ObjectId&lt;/div&gt;&lt;div&gt;entity_type(hospital/doctor/treatment)&lt;/div&gt;&lt;div&gt;entity_id (F.K)&lt;/div&gt;&lt;div&gt;user_id&lt;/div&gt;&lt;div&gt;user_name&lt;/div&gt;&lt;div&gt;rating&lt;/div&gt;&lt;div&gt;comment&lt;/div&gt;&lt;div&gt;date&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1760" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-16" value="Article&lt;div&gt;_id: ObjectId (P.K)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;hospital_ids&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;max_coverage&lt;/span&gt;&lt;/div&gt;&lt;div&gt;cashless&lt;/div&gt;&lt;div&gt;related_entities_ids(F.K)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2200" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-17" value="InsuranceNetwork&lt;div&gt;_id: ObjectId (P.K)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2640" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-18" value="&lt;div&gt;&lt;div&gt;User (Optional)&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3080" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Mnjj0A4_aMcffOSPMRFl-19" value="Appointments (Optional)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3080" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
